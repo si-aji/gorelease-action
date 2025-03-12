@@ -1,11 +1,10 @@
+# Skip building as you're only generating the changelog
 builds:
-  - # If true, skip the build.
-    # Useful for library projects.
-    # Default is false
-    skip: true
+  - skip: true
 
+# Changelog configuration
 changelog:
-  use: github
+  use: github  # Generate changelog from GitHub commits
   groups:
     - title: Features
       regexp: "^.*feat[(\\w)]*:+.*$"
@@ -26,3 +25,11 @@ changelog:
       regexp: ^.*?docs?(\(.+\))??!?:.+$
       order: 4
     - title: Others
+
+# Release configuration
+release:
+  github:
+    owner: si-aji
+    name: your-repository
+  prerelease: true
+  make_latest: false
