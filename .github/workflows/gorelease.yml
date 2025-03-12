@@ -3,7 +3,7 @@ name: GoReleaser
 on:
   push:
     tags:
-      - '*'  # Runs when you push a tag (e.g., v1.0.0)
+      - '*'
 
 permissions:
   contents: write
