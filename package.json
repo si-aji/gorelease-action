@@ -1,0 +1,23 @@
+{
+  "name": "gorelease",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/si-aji/gorelease-action#readme",
+  "bugs": {
+    "url": "https://github.com/si-aji/gorelease-action/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/si-aji/gorelease-action.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "generate:tag": "node scripts/generate-tag.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.3",
+    "inquirer": "^12.4.3"
+  }
+}
