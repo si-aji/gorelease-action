@@ -30,6 +30,6 @@ changelog:
 release:
   github:
     owner: si-aji
-    name: your-repository
+    name: gorelease-action
   prerelease: true
   make_latest: false
