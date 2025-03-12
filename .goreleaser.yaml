@@ -31,5 +31,5 @@ release:
   github:
     owner: si-aji
     name: gorelease-action
-  prerelease: true
+  prerelease: "true"
   make_latest: false
